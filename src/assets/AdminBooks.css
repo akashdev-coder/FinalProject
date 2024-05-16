@@ -1,0 +1,129 @@
+/* AdminBooks.css */
+
+.admin-books-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .add-book-form {
+    margin-bottom: 20px;
+  }
+  
+  .add-book-form input {
+    width: 200px;
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  .add-book-form button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .books-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .book-item {
+    margin-bottom: 10px;
+  }
+  
+  .book-item button {
+    padding: 3px 8px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+  /* Variables */
+:root {
+    --blue: #0f78ff;
+    --blue-text: #0d3f77;
+    --blue-bg: #deeafd;
+    --white: #ffffff;
+    --secondary: #d9e3eb;
+    --secondary-text: #c3d1de;
+  }
+  
+
+  
+  /* Choose File */
+  .card {
+    max-width: 768px;
+    padding: 32px;
+    text-align: center;
+    margin: auto;
+    /* margin-top: 90px; */
+    border-radius: 32px;
+    background: var(--white);
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.02);
+  }
+  .card__content {
+    padding: 56px;
+    border: medium dashed var(--secondary);
+    border-radius: 16px;
+  }
+  .card__content svg {
+    width: 100px;
+    color: var(--blue);
+  }
+  .card__content h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: var(--blue-text);
+  }
+  .card__content h1 label {
+    color: var(--blue);
+    cursor: pointer;
+    user-select: none;
+  }
+  .card__content p {
+    font-size: 14px;
+    color: var(--secondary-text);
+  }
+  
+  .adminBack {
+    background-color: #5a8f7b;
+  }
+
+  .adminBack h1 {
+    color: #fff;
+  }
+
+  button.btn.btn-primary.btnGreen {
+    background:  #5a8f7b;
+    border: none;
+    color: #fff;
+    font-weight: normal;
+  }
+
+  button.btn.btn-danger {
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    height: 2rem !important;
+    min-height: 2rem !important;
+}
+
+a.navbar-brand {
+  color: #fff;
+}
+/* .sticky-top .navbar-brand {
+  color: #000;
+} */
+.nav-link { 
+  color: #fff !important;
+}
+/* .sticky-top .nav-link { 
+  color: #000 !important;
+} */
+
+.sticky-top {
+   background: #3b5f52;
+}

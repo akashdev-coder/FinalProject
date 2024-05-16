@@ -1,0 +1,123 @@
+[
+    {
+        "_id": "66339390ad61db00387ad91c",
+        "id": 1,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad91d",
+        "id": 2,
+        "name": "Comedy Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 20,
+        "category": "Entertainment",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad91e",
+        "id": 3,
+        "name": "Sports Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 50,
+        "category": "Sport",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad91f",
+        "id": 4,
+        "name": "Music Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 100,
+        "category": "Song",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad920",
+        "id": 5,
+        "name": "Food Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 200,
+        "category": "Food",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad921",
+        "id": 6,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad922",
+        "id": 7,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad923",
+        "id": 8,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad924",
+        "id": 9,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad925",
+        "id": 10,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    },
+    {
+        "_id": "66339390ad61db00387ad926",
+        "id": 11,
+        "name": "Story Book",
+        "title": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "price": 0,
+        "category": "Free",
+        "image": "https://img.freepik.com/free-vector/realistic-book-lover-composition-with-stack-colorful-books-with-eyeglasses-home-plants-tea-cup-vector-illustration_1284-77312.jpg?t=st=1714570747~exp=1714574347~hmac=62c012cd1bd2f77a5612b1bb3ca3615a960b343275712538d0b1f608a3fb09ce&w=740",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, et totam.",
+        "author": "John Doe"
+    }
+]
