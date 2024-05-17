@@ -21,7 +21,7 @@ function AdminBooks() {
 
   const fetchBooks = async () => {
     try {
-      const res = await axios.get("https://finalprojectback-2.onrender.com//book");
+      const res = await axios.get("https://finalprojectback-2.onrender.com/book");
       setBooks(res.data);
     } catch (error) {
       console.log(error);
@@ -30,7 +30,7 @@ function AdminBooks() {
 
   const addBook = async () => {
     try {
-      await axios.post("https://finalprojectback-2.onrender.com//book", newBookData); // Send the complete newBookData object
+      await axios.post("https://finalprojectback-2.onrender.com/book", newBookData); // Send the complete newBookData object
       fetchBooks();
       setNewBookData({ name: "", category: "", description: "", image: "" }); // Clear imageUrl field as well
     } catch (error) {
@@ -43,7 +43,7 @@ function AdminBooks() {
 
   const deleteBook = async (id) => {
     try {
-      await axios.delete(`https://finalprojectback-2.onrender.com//book/${id}`);
+      await axios.delete(`https://finalprojectback-2.onrender.com/book/${id}`);
       fetchBooks();
     } catch (error) {
       console.log(error);

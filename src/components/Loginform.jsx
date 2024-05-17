@@ -17,7 +17,7 @@ function Login() {
     };
 
     try {
-      const res = await axios.post("https://finalprojectback-2.onrender.com//user/login", userInfo);
+      const res = await axios.post("https://finalprojectback-2.onrender.com/user/login", userInfo);
       console.log(res.data);
       if (res.data) {
         toast.success("Logged in Successfully");

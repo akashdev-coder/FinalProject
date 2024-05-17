@@ -7,7 +7,7 @@ function BookDetails({ item }) {
   useEffect(() => {
     const fetchBookDetails = async () => {
       try {
-        const response = await axios.get('https://finalprojectback-2.onrender.com//book');
+        const response = await axios.get('https://finalprojectback-2.onrender.com/book');
         setBook(response.data);
       } catch (error) {
         console.error('Error fetching book details:', error);
