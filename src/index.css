@@ -21,3 +21,110 @@ body {
 .MargBanner {
   margin: 7rem 0;
 }
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 1rem !important;
+}
+
+h2 {
+  font-size: 2.5rem;
+  padding-bottom: 2rem;
+}
+
+h2.missions:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  z-index: 1;
+  background-color: #000;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+
+#missions {
+  padding: 100px 0 !important;
+  background-color: #f5f5f4;
+}
+
+.container.posRelative {
+  position: relative;
+}
+
+div#contact {
+  background: url(./assets/images/contact.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 30rem;
+  background-attachment: fixed;
+  align-items: center;
+  display: flex;
+}
+
+div#IntroBanner {
+  background: url(./assets/images/firstImg.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 40rem;
+  /* background-attachment: fixed; */
+  align-items: center;
+  display: flex;
+}
+
+div#contact:before {
+  background: #00000075;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+#IntroBanner:before {
+  background: #00000075;
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+h1.getInTouch {
+  color: #fff;
+  font-size: 4rem;
+  padding-bottom: 3rem;
+}
+
+#contact p {
+  color: #fff;
+  font-size: 2rem;
+}
+
+h2.getInTouch:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 2px;
+  z-index: 1;
+  background-color: #fff;
+  margin: 0 auto;
+  margin-top: 1rem;
+} 
+
+.dark\:bg-slate-900:is(.dark *) {
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+}

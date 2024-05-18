@@ -61,17 +61,12 @@ function Freebook() {
   };
   return (
     <> 
-      <div className=" max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <div>
-          <h1 className="font-semibold text-xl pb-2">Free Offered Courses AKash</h1>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Accusantium veritatis alias pariatur ad dolor repudiandae eligendi
-            corporis nulla non suscipit, iure neque earum?
-          </p>
-        </div>
-
-        <div>
+      <div className="container">
+        <div className="row">
+          <div className="col-12 text-center pt-5">
+              <h2>Choose Your Book!</h2>
+          </div>
+          <div className="col-12">
           <Slider {...settings}>
             {book.map((item) => (
               <Cards item={item} key={item.id} />
@@ -79,7 +74,9 @@ function Freebook() {
             ))}
             
           </Slider>
-          
+          </div>
+        </div>
+        <div>
         </div>
       </div>
     </>
