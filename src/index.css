@@ -65,7 +65,7 @@ div#contact {
 }
 
 div#IntroBanner {
-  background: url(./assets/images/firstImg.jpg);
+  background: url(./assets/images/firstimg.jpg);
   position: relative;
   background-size: cover;
   background-repeat: no-repeat;
@@ -127,4 +127,8 @@ h2.getInTouch:after {
 .dark\:bg-slate-900:is(.dark *) {
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity)) !important;
+}
+
+h2.text-center.getInTouch {
+  color: #fff;
 }
