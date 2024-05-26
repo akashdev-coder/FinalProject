@@ -5,6 +5,7 @@ import Freebook from "../components/Freebook";
 import Footer from "../components/Footer";
 import Missions from "../components/Missions";
 import Contactbanner from "../components/Contactbanner";
+import Popular from "../components/Popular";
 
 
 function Home() {
@@ -15,6 +16,7 @@ function Home() {
       <Missions />
       <Freebook />
       <Contactbanner />
+      <Popular />
       <Footer />
     </>
   );

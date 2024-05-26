@@ -132,3 +132,7 @@ h2.getInTouch:after {
 h2.text-center.getInTouch {
   color: #fff;
 }
+.card {
+  background: transparent;
+  border: none;
+}
