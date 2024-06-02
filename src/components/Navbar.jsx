@@ -3,6 +3,7 @@ import { useState } from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import { useAuth } from "../context/AuthProvider";
+import Logo from '../assets/images/logo.png';
 
 function Navbar() {
   const [authUser, setAuthUser] = useAuth();
@@ -91,7 +92,7 @@ function Navbar() {
                 {navItems}
               </ul>
             </div>
-            <a className=" text-2xl font-bold cursor-pointer">Your Bookstore</a>
+            <a className=" text-2xl font-bold cursor-pointer"><img src={Logo} className="img-fluid logos" alt="logo" /></a>
           </div>
           <div className="navbar-end space-x-3">
             <div className="navbar-center hidden lg:flex">

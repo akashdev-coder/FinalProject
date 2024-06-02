@@ -61,10 +61,10 @@ function Freebook() {
   };
   return (
     <> 
-      <div className="container">
+      <div className="container" id="books">
         <div className="row">
-          <div className="col-12 text-center pt-5">
-              <h2>Choose Your Book!</h2>
+          <div className="col-12 text-center">
+              <h2 className="pb-0">Choose Your Book!</h2>
           </div>
           <div className="col-12">
           <Slider {...settings}>

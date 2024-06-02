@@ -47,7 +47,15 @@ h2.missions:after {
   padding: 100px 0 !important;
   background-color: #f5f5f4;
 }
+#books {
+  padding: 100px 0 !important;
 
+}
+
+
+img.img-fluid.logos {
+  width: 21%;
+}
 .container.posRelative {
   position: relative;
 }
@@ -136,3 +144,4 @@ h2.text-center.getInTouch {
   background: transparent;
   border: none;
 }
+
