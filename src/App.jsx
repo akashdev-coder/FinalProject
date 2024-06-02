@@ -4,6 +4,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "./home/Home";
 import Courses from "./courses/Courses";
+import About from "./about/About";
 import Signup from "./components/Signup";
 import LoginForm from "./components/Loginform";
 import LoginAdmin from "./admin/LoginAdmin";
@@ -32,6 +33,7 @@ function App() {
         <Route path="/admin/books" element={<AdminBooks />} />
         <Route path="/loginform" element={<LoginForm />} />
         <Route path="/loginadmin" element={<LoginAdmin />} />
+        <Route path="/about" element={<About />} />
         {/* Add a route for the admin interface */}
         {/* {authUser && authUser.isAdmin && (
           <Route path="/admin/books" element={<AdminBooks />} />

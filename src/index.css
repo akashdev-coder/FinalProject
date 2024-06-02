@@ -52,8 +52,18 @@ h2.missions:after {
 
 }
 
+#about {
+  padding-top: 100px!important;
 
-img.img-fluid.logos {
+}
+
+.pictos {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+
+.logos {
   width: 21%;
 }
 .container.posRelative {
