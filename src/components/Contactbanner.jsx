@@ -13,7 +13,7 @@ function Contactbanner() {
           </div>
           <div className='row'>
             <div className='col-12'>
-              <a href='/contact/' className='btn btnContact'>Contact us</a>
+              <a href='mailto:akash.aubeeluck1@gmail.com' className='btn btnContact'>Contact us</a>
             </div>
           </div>
         </div>
