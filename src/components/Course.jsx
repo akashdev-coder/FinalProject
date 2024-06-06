@@ -43,28 +43,26 @@ function Course() {
 
   return (
     <>
-      <div className="max-w-screen-2xl container mx-auto md:px-20 px-4">
-        <div className="mt-28 items-center justify-center text-center">
-          <h1 className="text-2xl  md:text-4xl">
-            We're delighted to have you{" "}
-            <span className="text-pink-500"> Here! :)</span>
+      <div className="container-fluid dark:bg-slate-900 dark:text-white" id="missions">
+        <div className="container">
+        <div className="row mt-5">
+          <div className="col-12 text-center">
+          <h1 className="text-2xl text-center  md:text-4xl">
+             The Dawn of
+            <span className="text-slate-500"> New Beginnings</span>
           </h1>
-          <p className="mt-12">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Porro,
-            assumenda? Repellendus, iste corrupti? Tempore laudantium
-            repellendus accusamus accusantium sed architecto odio, nisi expedita
-            quas quidem nesciunt debitis dolore non aspernatur praesentium
-            assumenda sint quibusdam, perspiciatis, explicabo sequi fugiat amet
-            animi eos aut. Nobis quisquam reiciendis sunt quis sed magnam
-            consequatur!
+          <p className="pt-5 text-center">
+            As the first light of dawn crept over the horizon, the world seemed to hold its breath. It was a time of renewal, a moment when the past faded away and the future stretched out with endless possibilities. Each morning brought a promise—a chance to start anew, to embrace the unknown with hope and courage. In this serene stillness, one could find clarity and strength, ready to face whatever lay ahead. It was in these quiet moments that true transformation began.
           </p>
           <Link to="/">
-            <button className="mt-6 bg-pink-500 text-white px-4 py-2 rounded-md hover:bg-pink-700 duration-300">
+            <button className="mt-6 bg-gray-950	 text-white px-4 py-2 rounded-md hover:bg-gray-500 duration-300">
               Back
             </button>
           </Link>
         </div>
-        <div className="mt-12 flex justify-between">
+        </div>
+
+<div className="mt-12 flex justify-between">
   <div className="flex items-center">
     <label htmlFor="category" className="mr-2">
       Filter by Category:
@@ -97,11 +95,13 @@ function Course() {
     />
   </div>
 </div>
+
         <div className="mt-12 grid grid-cols-1 md:grid-cols-4 gap-4">
           {filteredBooks.map((item) => (
             <Cards key={item.id} item={item} />
           ))}
         </div>
+      </div>
       </div>
     </>
   );

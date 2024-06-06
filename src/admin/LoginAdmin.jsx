@@ -84,7 +84,7 @@ function Login() {
                 </div>
                 {/* Button */}
                 <div className="d-flex justify-content-between align-items-center mt-4">
-                  <button className="btn btn-primary btnGreen">
+                  <button className="btn btn-primary btn-black">
                     Login
                   </button>
                   <p>

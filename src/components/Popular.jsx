@@ -15,37 +15,37 @@ function Popular() {
                 </div>
             </div>
             <div className='row'>
-                <div className='col-12 col-md-3'>
+                <div className='col-12 col-md-6 col-xl-3'>
                     <div className='card'>
                         <img src={Author1} alt='author1' className='img-fluid' />
-                        <div className='card-body'>
+                        <div className='card-body mt-5'>
                             <h4>Author Name</h4>
                             <p>Author Description</p>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-3'>
+                <div className='col-12 col-md-6 col-xl-3'>
                     <div className='card'>
                     <img src={Author2} alt='author1' className='img-fluid' />
-                        <div className='card-body'>
+                        <div className='card-body mt-5'>
                             <h4>Author Name</h4>
                             <p>Author Description</p>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-3'>
+                <div className='col-12 col-md-6 col-xl-3'>
                     <div className='card'>
                     <img src={Author3} alt='author1' className='img-fluid' />
-                        <div className='card-body'>
+                        <div className='card-body mt-5'>
                             <h4>Author Name</h4>
                             <p>Author Description</p>
                         </div>
                     </div>
                 </div>
-                <div className='col-12 col-md-3'>
+                <div className='col-12 col-md-6 col-xl-3'>
                     <div className='card'>
                     <img src={Author4} alt='author1' className='img-fluid' />
-                        <div className='card-body'>
+                        <div className='card-body mt-5'>
                             <h4>Author Name</h4>
                             <p>Author Description</p>
                         </div>

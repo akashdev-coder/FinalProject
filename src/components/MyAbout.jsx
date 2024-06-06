@@ -8,7 +8,7 @@ function MyAbout() {
   return (
     <>
     <div className="container-fluid dark:bg-slate-900 dark:text-white" id="about">
-      <div className='container py-5'>
+      <div className='container p-5'>
         <div className='row'>
             <div className='col-12 text-center'>
                 <h2 className='missions'>Our Missions</h2>

@@ -3,6 +3,7 @@ import { useState } from "react";
 import Login from "./Login";
 import Logout from "./Logout";
 import { useAuth } from "../context/AuthProvider";
+import Logo from '../assets/images/logo.png';
 
 function Navbaradmin() {
   const [authUser, setAuthUser] = useAuth();
@@ -44,7 +45,7 @@ function Navbaradmin() {
           <div className="row text-center align-items-center">
             <div className="col-12 col-md-3">
               <a className="navbar-brand" href="#">
-                bookStore
+              <img src={Logo} className="img-fluid logos" alt="logo" />
               </a>
             </div>
             <div className="col-12 col-md-6">

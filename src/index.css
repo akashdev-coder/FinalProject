@@ -62,10 +62,26 @@ h2.missions:after {
   padding-bottom: 2rem;
 }
 
+@media (min-width: 575px) {
+  .logos {
+    width: 21%;
+  }
 
-.logos {
-  width: 21%;
+  .adminBack .logos {
+    width: 30%;
 }
+}
+
+@media (max-width: 575px) {
+  .logos {
+    width: 100%;
+  }
+}
+
+.adminBack p {
+  margin-bottom: 0 !important;
+}
+
 .container.posRelative {
   position: relative;
 }
@@ -153,5 +169,43 @@ h2.text-center.getInTouch {
 .card {
   background: transparent;
   border: none;
+}
+
+.btn-cat {
+  background: #000;
+  border-radius: 50px;
+  color: #fff;
+  padding: 3px;
+}
+
+.dark .logos {
+  background-color: #ffffff92;
+}
+
+.dark #missions h4,
+.dark #missions p {
+  color: #fff;
+}
+
+.dark .menu-sm li a  {
+  color: #000;
+}
+.card-body {
+  padding: 0 !important;
+}
+
+.card {
+  padding: 10px !important;
+}
+
+.btn-black {
+  background-color: #000;
+  outline-color: black !important;
+  border: none;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background-color: #0000007d;
 }
 
